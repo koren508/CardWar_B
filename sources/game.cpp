@@ -124,7 +124,7 @@ void Game::printStats(){
     cout << "Cardes won: "+to_string(p2.cardesTaken()) << endl;
     cout << "Turns played: "+to_string((int)counter_turns) << endl;
     cout << "Turns won: "+to_string((int)p2_wins) << endl;
-    cout << "Winrate: "+to_string((int)(p1_win_rate*100))+"%" << endl;
+    cout << "Winrate: "+to_string((int)(p2_win_rate*100))+"%" << endl;
     cout << "Amount of draws: "+to_string((int)counter_draws) << endl;
     cout << "Draw rate: "+to_string((int)(draw_rate*100))+"%" << endl;
 }
